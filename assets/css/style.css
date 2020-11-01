@@ -41,18 +41,26 @@ body {
     font-weight: bold;
 }
 
+.search {
+    top: 50%;
+    transform: translate(10, -50%);
+    font-weight: bold;
+}
+
 
 /*Search*/
 
 .search-form {
-    width: 70vw;
+    width: 100%;
     background-color: lightgray;
-    margin-top: 0;
+    margin-top: 2;
 }
 
 input,
 label {
     margin: .4rem 0;
+    border: lightgray;
+    border-radius: 5px;
 }
 
 
@@ -61,5 +69,8 @@ label {
 @media only screen and (min-width: 1024px) {
     .centered {
         font-size: 3rem;
+    }
+    .search-form {
+        width: 80%;
     }
 }
