@@ -93,8 +93,39 @@ input {
     float: right;
 }
 
+.btn-room {
+    background-color: #0a7fab;
+    border: #0a7fab;
+    float: right;
+    height: 40px;
+    margin-left: 5px;
+}
+
+
+/*Rooms*/
+
+.room1,
+.room2 {
+    width: 50%;
+}
+
+.room2 {
+    top: 50%;
+    left: 20%;
+    transform: translate(50%, -50%);
+}
+
+.room-content {}
+
 
 /*Media Queries*/
+
+@media only screen and (max-width: 768px) {
+    .room1,
+    .room2 {
+        width: 80%;
+    }
+}
 
 @media only screen and (min-width: 1024px) {
     .centered {
