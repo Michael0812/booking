@@ -20,24 +20,35 @@ body {
 /* Hero image*/
 
 .hero-image {
-    background-image: url("https://cf.bstatic.com/images/hotel/max1024x768/198/19881135.jpg");
-    min-height: 50vh;
+    background-image: url("https://cf.bstatic.com/images/hotel/max1024x768/197/197595612.jpg");
+    min-height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     max-height: 70vh;
-    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 5, 0.801);
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 5, 0.201);
     border-color: rgba(0, 0, 0, 1);
 }
 
 .centered {
-    position: absolute;
-    font-size: 1.8rem;
-    color: white;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 40%;
     transform: translate(-50%, -50%);
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.centered1 {
+    top: 40%;
+    left: 50%;
+    width: 70vw;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #ffffff;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -51,16 +62,35 @@ body {
 /*Search*/
 
 .search-form {
-    width: 100%;
-    background-color: lightgray;
+    width: 70%;
+    background-color: #24335d;
     margin-top: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
 }
 
 input,
 label {
     margin: .4rem 0;
-    border: lightgray;
+    border: #ffffff;
     border-radius: 5px;
+    color: #ffffff;
+}
+
+input {
+    background-color: #252f59;
+    color: #ffffff;
+    border-style: solid;
+    height: 40px;
+    border-width: 1px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #0a7fab;
+    border: #0a7fab;
+    float: right;
 }
 
 
@@ -68,9 +98,30 @@ label {
 
 @media only screen and (min-width: 1024px) {
     .centered {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .search-form {
-        width: 80%;
+        width: 70%;
+        height: 15vh;
+    }
+    .centered {
+        top: 30%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .centered1 {
+        width: 500px;
+        top: 40%;
+        left: 33%;
+    }
+    input,
+    label {
+        margin-top: 1rem;
+        display: inline-block;
+    }
+    .btn {
+        margin-right: -30px;
+        width: 150px;
+        height: 15vh;
     }
 }
