@@ -124,22 +124,15 @@ input {
 }
 
 .amenitites-content {
-    background-color: #0a7fab;
+    background-color: #3f9cc1;
     color: #ffffff;
+    text-align: center;
 }
 
 .list1,
 .list2 {
     display: inline-table;
     line-height: 50px;
-}
-
-.list1 {
-    margin-right: 10%;
-}
-
-.list2 {
-    margin-left: 10%;
 }
 
 
@@ -149,6 +142,12 @@ input {
     .room1,
     .room2 {
         width: 80%;
+    }
+    .amenitites-content {
+        text-align: left;
+    }
+    i {
+        margin-right: 10px;
     }
 }
 
@@ -179,5 +178,8 @@ input {
         margin-right: -30px;
         width: 150px;
         height: 15vh;
+    }
+    i {
+        margin-right: 15px;
     }
 }
