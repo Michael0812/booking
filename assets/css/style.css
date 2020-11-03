@@ -154,6 +154,7 @@ input {
 .list2 {
     display: inline-table;
     line-height: 50px;
+    list-style-type: none;
 }
 
 
