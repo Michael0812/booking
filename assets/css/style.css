@@ -73,8 +73,7 @@ h3,
 .search-form {
     width: 70%;
     background-color: #24335d;
-    margin-top: 2;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(0%, -50%);
 }
@@ -240,7 +239,7 @@ h5 {
     }
     .search-form {
         width: 70%;
-        height: 15vh;
+        height: 20%;
     }
     .centered {
         top: 30%;
@@ -260,7 +259,7 @@ h5 {
     .btn {
         margin-right: -30px;
         width: 150px;
-        height: 15vh;
+        height: 100%
     }
     i {
         margin-right: 15px;
